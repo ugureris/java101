@@ -28,7 +28,7 @@ public class Main {
         Arrays.fill(list2, 2, 4, 12);      //javanın kütüphanesi, istenen değerleri tek değer yapıyor
         System.out.println(Arrays.toString(list2));     //javanın kütüphanesi, istenen değerleri tek değer yapıyor
         HelperArray arr = new HelperArray();      //benim metodum
-        arr.indexPrint(list4, 2, 5, 11);       //benim metodum
+        arr.indexPrint(list4, 2, 4, 11);       //benim metodum
 
         System.out.println("\n****************\n\n");
 

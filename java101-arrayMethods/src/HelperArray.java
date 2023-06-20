@@ -19,7 +19,7 @@ public class HelperArray {
     void indexPrint(int[] arr, int first, int end, int value) {
         System.out.print("[");
         for (int i = 0; i < arr.length; i++) {
-            if (i >= first && i <= end) {
+            if (i >= first && i < end) {
                 arr[i] = value;
             }
             System.out.print(arr[i] + " ");
